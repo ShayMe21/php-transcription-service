@@ -1,0 +1,8 @@
+{
+  "name": "Audio Transcription Transcriber Service",
+  "description": "Audio Transcription Service using Amazon SQS and Laravel Lumen framework.",
+  "require": {
+      "aws/aws-sdk-php": "2.*",
+      "vlucas/phpdotenv": "^3.3"
+  }
+}
