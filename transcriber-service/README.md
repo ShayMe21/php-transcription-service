@@ -1,4 +1,4 @@
-# Transcription Transcription Service
+# Transcription Service
 
 This service will  listen for new jobs on the transcription queue in SQS. When it gets a new file, it waits for 2 seconds (to simulate audio processing), and sends a new job on the notification queue.
 
