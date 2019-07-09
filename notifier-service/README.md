@@ -1,4 +1,4 @@
-# Transcription Notification Service
+# Notification Service
 
 This service will endlessly listen for new jobs on the notification queue in SQS. When it receives a new job, it sends an email to the email address specified in the `user-email` field of the message.
 
